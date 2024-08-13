@@ -1,0 +1,20 @@
+
+.hero_image {
+    background-image: url("./Photos/Hero_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 352px;
+}
+
+.hero_text {
+    padding-top: 280px;
+    color: aliceblue;
+    font-size: 3.5em;
+}
+
+header {
+    font-size: 2.4em;
+    background-color:rgba(4, 62, 219, 0.623);
+    margin: 0;
+}
