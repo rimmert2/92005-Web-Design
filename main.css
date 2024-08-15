@@ -4,17 +4,125 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 352px;
+    height: 300px;
+    padding-top: 100px;
 }
 
 .hero_text {
-    padding-top: 280px;
+    padding-top: 150px;
     color: aliceblue;
     font-size: 3.5em;
 }
 
 header {
     font-size: 2.4em;
-    background-color:rgba(4, 62, 219, 0.623);
-    margin: 0;
+    background-color: #6D835C;
+    border: 0 0 0 0;
+}
+
+body {
+    width: 100%;
+}
+nav {
+    background-color: #4E763B;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    padding: 15px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 90%;
+    margin-top: 10px;
+}
+img {
+    width: 100%;
+}
+.blacktext {
+    font-size: 40px;
+}
+
+.Weavingbackground {
+    background-image: url(./Photos/Weaving\ 1.jpg);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.whitetext {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#weavingtext {
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 40px 0 40px;
+    line-height: 2rem;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #4E763B;
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px 20px;
+    color: white;
+    margin: 25px;
+   
+  
+}
+
+.rightimage {
+    grid-area: 1 / 2 / 2 / 2;
+}
+
+
+.righttext { 
+    grid-area: 1 / 1 / 2 / 2; 
+    font-size: 40px;
+}
+.plain-text {
+    background-color: rgb(196, 196, 196);
+    padding: 40px;
+    text-align: center;
+}
+
+.three-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+
+.card {
+    background-color: #6D835C;
+}
+
+.card-text {
+    text-align: center;
+    color: whitesmoke;
+}
+
+footer {
+    background-color: rgb(3, 36, 0);
+    color: #daf0f7;
+    padding: 30px 0 30px 0;
+    text-align: center;
 }
