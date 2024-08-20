@@ -1,3 +1,6 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 .hero_image {
     background-image: url("./Photos/Hero_image.jpg");
@@ -11,11 +14,12 @@
 .hero_text {
     padding-top: 150px;
     color: aliceblue;
-    font-size: 3.5em;
+    font-size: 4em;
+    padding-left: 40px;
 }
 
 header {
-    font-size: 2.4em;
+    font-size: 2.7em;
     background-color: #6D835C;
     border: 0 0 0 0;
 }
@@ -42,7 +46,7 @@ nav a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
-    width: 90%;
+    width: 100%;
     margin-top: 10px;
 }
 img {
@@ -60,19 +64,29 @@ img {
     background-size: cover;
 }
 
+.Geyserbackground {
+    background-image: url(./Photos/Geyser\ 2.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+} 
+
 .whitetext {
-    color: white;
+    color: #ffffff;
     font-size: 60px;
     text-align: center;
     padding-top: 30px;
 }
 
-#weavingtext {
+.weavingtext {
     color: #ffffff;
     text-align: center;
-    padding: 50px 40px 0 40px;
+    padding: 50px 40px 250px 40px;
     line-height: 2rem;
 }
+
 
 .button {
     border-radius: 4px;
@@ -107,7 +121,7 @@ img {
     gap: 100px;
     width: 80%;
     margin: auto;
-    margin-top: 40px;
+    
     
 }
 
@@ -125,4 +139,9 @@ footer {
     color: #daf0f7;
     padding: 30px 0 30px 0;
     text-align: center;
+    width: 100%;
+}
+
+.greenback {
+    background-color: #95C082;
 }
