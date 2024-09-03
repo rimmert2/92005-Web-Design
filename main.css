@@ -63,7 +63,7 @@ img {
 }
 
 .Weavingbackground {
-    background-image: url(./Photos/Weaving\ 1.jpg);
+    background-image: url(./Photos/Weaving-1.jpg);
     height: 700px;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,7 +71,7 @@ img {
 }
 
 .Geyserbackground {
-    background-image: url(./Photos/Geyser\ 2.jpg);
+    background-image: url(./Photos/Geyser-2.jpg);
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ img {
 } 
 
 .Flaxbackground {
-    background-image: url(./Photos/Flax\ 1.jpg);
+    background-image: url(./Photos/Flax-1.jpg);
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
